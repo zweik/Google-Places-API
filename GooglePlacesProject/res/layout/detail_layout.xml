@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <ImageView
+        android:id="@+id/place_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingRight="0dp"
+        android:visibility="gone"
+        android:padding="5dp"
+        android:src="@drawable/ic_launcher" />
+
+    <TextView
+        android:id="@+id/place_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/place_icon"
+        android:padding="2dp"
+        android:visibility="gone"
+        android:text="placeholder"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/place_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/place_name"
+        android:visibility="gone"       
+        android:layout_toRightOf="@+id/place_icon"
+        android:padding="2dp"
+        android:text="placeholder2"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/place_location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="2dp"
+        android:visibility="gone"       
+        android:layout_toRightOf="@+id/place_icon"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/place_address"
+        android:textSize="16sp"
+        android:text="placeholder3" />
+
+    <Button
+        android:id="@+id/place_website"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/place_location"
+        android:text="Website" />
+
+    <Button
+        android:id="@+id/place_gmapsurl"
+        android:layout_width="wrap_content"
+        android:visibility="gone"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/place_website"
+        android:text="Maps" />
+
+</RelativeLayout>

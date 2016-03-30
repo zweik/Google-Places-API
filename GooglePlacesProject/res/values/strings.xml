@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">GooglePlacesProject</string>
+    <string name="details_activity_name">Information</string>
+    <string name="main_activity_name">Google Places API</string>
+
+</resources>
